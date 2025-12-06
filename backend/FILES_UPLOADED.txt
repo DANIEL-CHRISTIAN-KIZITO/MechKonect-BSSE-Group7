@@ -1,0 +1,38 @@
+BACKEND LOGIC FILES UPLOADED TO GITHUB
+======================================
+
+This file lists all backend logic files that have been uploaded to the repository.
+
+MODELS (5 files):
+- lib/data/models/user_model.dart
+- lib/data/models/mechanic_model.dart
+- lib/data/models/booking_model.dart
+- lib/data/models/payment_model.dart
+- lib/data/models/review_model.dart
+
+REPOSITORIES (4 files):
+- lib/data/repositories/auth_repository.dart
+- lib/data/repositories/booking_repository.dart
+- lib/data/repositories/mechanic_repository.dart
+- lib/data/repositories/payment_repository.dart
+
+SERVICES (4 files):
+- lib/data/services/api_service.dart
+- lib/data/services/local_storage_service.dart
+- lib/data/services/location_service.dart
+- lib/data/services/notification_service.dart
+
+CONSTANTS (1 file):
+- lib/core/constants/api_endpoints.dart
+
+DEVELOPMENT (1 file):
+- lib/data/dev/seed_data.dart
+
+DOCUMENTATION (2 files):
+- README.md
+- FILES_UPLOADED.txt
+
+TOTAL: 17 files
+
+All files are located in the backend/ directory of the repository.
+
