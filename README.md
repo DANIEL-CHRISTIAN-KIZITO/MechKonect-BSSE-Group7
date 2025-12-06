@@ -76,15 +76,29 @@ lib/
 │   ├── theme/                  # Light and dark themes
 │   ├── utils/                  # Validators, formatters
 │   └── widgets/                # Reusable widgets
-├── data/                       # Data layer
-│   ├── models/                 # Data models
-│   ├── repositories/           # Data repositories
+├── data/                       # Data layer (Backend Logic)
+│   ├── models/                 # Data models (User, Mechanic, Booking, Payment, Review)
+│   ├── repositories/           # Data repositories (Auth, Booking, Mechanic, Payment)
 │   └── services/               # API, storage, location, notifications
 ├── presentation/               # UI layer
 │   ├── screens/                # All app screens
 │   └── providers/              # State management (Provider)
 └── routes/                     # App routing configuration
+
+backend/                        # Backend logic documentation and reference
+└── lib/                        # Backend logic source files (mirrored in lib/)
 ```
+
+## Backend Logic
+
+The backend logic has been fully integrated into the main `lib/` structure. The `backend/` folder contains documentation and reference files. All backend components are located in:
+
+- **Models**: `lib/data/models/` - User, Mechanic, Booking, Payment, Review models
+- **Repositories**: `lib/data/repositories/` - Auth, Booking, Mechanic, Payment repositories
+- **Services**: `lib/data/services/` - API, Local Storage, Location, Notification services
+- **API Endpoints**: `lib/core/constants/api_endpoints.dart` - All API endpoint definitions
+
+For detailed backend documentation, see `backend/README.md`.
 
 ## Key Files to Configure
 
